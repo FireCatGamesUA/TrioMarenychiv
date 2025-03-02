@@ -1,10 +1,10 @@
 @font-face {
     font-family: kyiv;
-    src: url(/fonts/KyivRegion-Regular.ttf);
+    src: url(./fonts/KyivRegion-Regular.ttf);
 }
 @font-face {
     font-family: lutsk;
-    src: url(/fonts/Lutsk-type-14-12-17.ttf);
+    src: url(./fonts/Lutsk-type-14-12-17.ttf);
 }
 *{
     margin: 0;
