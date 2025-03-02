@@ -1,0 +1,72 @@
+@font-face {
+    font-family: kyiv;
+    src: url(/fonts/KyivRegion-Regular.ttf);
+}
+@font-face {
+    font-family: lutsk;
+    src: url(/fonts/Lutsk-type-14-12-17.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(5, 100vh) 10vh;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9b50b;
+    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px black;
+    font-family: lutsk;
+}
+.pDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    opacity: 0;
+    transition: 0.9s;
+}
+.pCool{
+    width: 50vw;
+    height: 50vh;
+    padding: 75px;
+    text-align: center;
+    background-color: #e9b50b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 0.25em solid black;
+    color: black;
+    box-shadow: 10px 10px 0px black;
+    font-size: large;
+    font-family: kyiv;
+    transition: 0.9s;
+}
+.pCool:hover{
+    transition: 0.9s;
+    box-shadow: none;
+}
+footer{
+    background-color: #e9b50b;
+    border-top: 0.25em solid black;
+    font-family: lutsk;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+h6{
+    width: 20vw;
+    height: 2vh;
+}
